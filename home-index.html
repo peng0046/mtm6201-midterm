@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <ul id="skipnav">
+                <li>
+                    <a href="#main-content" aria-label="Skip to main content">Skip to main content</a>
+                </li>
+            </ul>
+        </div>
+
+        <header>
+            <div class="home-header">
+                <picture>
+                    <source media="(min-width: 760px)" srcset="images/profile-1-4x.jpg">
+                    <img src="images/profile-1-3x.jpg" alt="Profile Image" class="profile-image" />
+                </picture>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <div class="home-profile">
+                <h1 class="welcome">Welcome,</h1>
+                <h2 class="Matthew">Matthew Anderson</h2>
+                <p class="get-started">Let's get started by adding more information to your profile.</p>
+
+                <div class="profile-buttons">
+                    <button class="profile-button" type="submit" aria-label="Go to profile">GO TO PROFILE</button>
+                    <button class="profile-button" type="submit" aria-label="Dismiss">DISMISS</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="home-org">
+                <div class="home-org-block">
+                    <div class="gray-text">Trending Charities</div>
+                </div>
+
+                <div class="home-org-block">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="images/org-1-4x.jpg">
+                        <img src="images/org-1-3x.jpg" alt="Organization Image" class="organization-image" />
+                    </picture>
+
+                    <div class="organization-details">
+                        <div class="organization-name">St. Loueis Welfare Org.</div>
+
+                        <div class="progress-container" role="progressbar">
+                            <div class="progress"></div>
+                        </div>
+
+                        <div class="total-raised-info">
+                            <div class="gray-text">TOTAL RAISED</div>
+                            <div class="gray-money">$10,000</div>
+                            <div class="blue-money">$12,500</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-org-block">
+                    <picture>
+                        <source media="(min-width: 760px)" srcset="images/org-2-4x.jpg">
+                        <img src="images/org-2-3x.jpg" alt="Organization Image" class="organization-image" />
+                    </picture>
+
+                    <div class="organization-details">
+                        <div class="organization-name">St. Loueis Welfare Org.</div>
+
+                        <div class="progress-container" role="progressbar">
+                            <div class="progress"></div>
+                        </div>
+
+                        <div class="total-raised-info">
+                            <div class="gray-text">TOTAL RAISED</div>
+                            <div class="gray-money">$10,000</div>
+                            <div class="blue-money">$12,500</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-menu">
+                <a href="#" class="bottom-menu-item">
+                    <svg class="bottom-menu-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="14"
+                        viewBox="0 0 15 14">
+                        <path d="M5.769,14V9.333H9.231V14H12.75V7H15L7.5,0,0,7H2.25v7Z" fill="#27282b" />
+                    </svg>
+                    HOME
+                </a>
+                <a href="#" class="bottom-menu-item">
+                    <svg class="bottom-menu-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        viewBox="0 0 16 16">
+                        <rect width="16" height="16" opacity="0" />
+                        <path
+                            d="M6.668,11.333a.667.667,0,0,1-.473-.193L1.014,5.953A3.488,3.488,0,0,1,5.948,1.02l.72.72.72-.72a3.488,3.488,0,1,1,4.933,4.933L7.141,11.14A.667.667,0,0,1,6.668,11.333Z"
+                            transform="translate(1.332 2.667)" fill="#27282b" />
+                    </svg>
+                    CHARITIES
+                </a>
+                <a href="#" class="bottom-menu-item">
+                    <svg class="bottom-menu-icon" xmlns="http://www.w3.org/2000/svg" width="13.964" height="13.967"
+                        viewBox="0 0 13.964 13.967">
+                        <g transform="translate(0 -0.033)">
+                            <path
+                                d="M13.8,12.956,9.916,9.036a5.535,5.535,0,1,0-.84.851l3.858,3.895a.6.6,0,0,0,.844.022A.6.6,0,0,0,13.8,12.956Z"
+                                transform="translate(0 0.033)" fill="#27282b" />
+                        </g>
+                    </svg>
+                    EXPLORE
+                </a>
+                <a href="#" class="bottom-menu-item">
+                    <svg class="bottom-menu-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        viewBox="0 0 16 16">
+                        <rect width="16" height="16" opacity="0" />
+                        <g transform="translate(5 2)">
+                            <path d="M2.667,5.333A2.667,2.667,0,1,0,0,2.667,2.667,2.667,0,0,0,2.667,5.333Z"
+                                transform="translate(0.333 0)" fill="#27282b" />
+                        </g>
+                        <path d="M0,4.667a.667.667,0,0,0,.667.667h8a.667.667,0,0,0,.667-.667A4.667,4.667,0,0,0,0,4.667Z"
+                            transform="translate(3.333 8.667)" fill="#27282b" />
+                    </svg>
+                    PROFILE
+                </a>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

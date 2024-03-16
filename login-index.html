@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <ul id="skipnav">
+                <li>
+                    <a href="#main-content" aria-label="Skip to main content">Skip to main content</a>
+                </li>
+            </ul>
+        </div>
+
+        <header class="login-header">
+            <button class="header-button" aria-label="Go back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="11.414" viewBox="0 0 25 11.414">
+                    <g transform="translate(0.5 0.707)">
+                        <path d="M23.333.833H0" transform="translate(0.667 4.167)" fill="none" stroke="#27282b"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+                        <path d="M5,10,0,5,5,0" fill="none" stroke="#27282b" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1" />
+                    </g>
+                </svg>
+            </button>
+        </header>
+
+        <main id="main-content">
+            <div class="login-container">
+                <div class="login">Login</div>
+                <div class="get-started">Get started with your journey.</div>
+                <form action="#" method="post">
+                    <label class="gray-text" for="email">Username or Email</label>
+                    <input class="email-input" id="email" type="text" name="email" aria-label="Email"
+                        placeholder="Please type your Username or Email here" required>
+
+                    <label class="gray-text" for="password">Password</label>
+                    <div class="password-input">
+                        <input id="password" type="password" name="password"
+                            placeholder="Please type your Password here" required>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15.966" height="10" viewBox="0 0 15.966 10">
+                            <g transform="translate(-0.001)">
+                                <path
+                                    d="M.145,5.369a.54.54,0,0,1,0-.74C2.85,1.757,5.109,0,7.974,0c3.41,0,5.994,2.424,7.862,4.629a.533.533,0,0,1-.018.718C13.986,7.3,11.409,10,7.974,10,4.5,10,2.458,7.858.145,5.369Z"
+                                    transform="translate(0.001)" fill="#757e90" />
+                                <path
+                                    d="M2.28.59A1.594,1.594,0,0,1,2.39,0c-.036,0-.071,0-.11,0A2.249,2.249,0,0,0,.007,2.392a2.261,2.261,0,0,0,2.1,2.045A2.259,2.259,0,0,0,4.561,2.222c0-.045,0-.09,0-.135a1.615,1.615,0,0,1-.649.135A1.632,1.632,0,0,1,2.28.59Z"
+                                    transform="translate(5.702 2.778)" fill="#757e90" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="options">
+                        <label>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+                                <path d="M0,5a5,5,0,1,1,5,5A5,5,0,0,1,0,5Z" fill="#0d65d8" />
+                            </svg>
+                            Remember Password
+                        </label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+
+                    <button type="submit" class="login-button" aria-label="Submit">CONTINUE TO LOGIN</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
